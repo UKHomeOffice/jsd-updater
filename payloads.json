@@ -1,0 +1,115 @@
+{
+  "cases": [
+    {
+      "issue": {
+        "id": "100000",
+        "key": "ACP-000",
+        "fields": {
+          "customfield_10001": {
+            "requestType": {
+              "id": ""
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue": {
+        "id": "100001",
+        "key": "ACP-001",
+        "fields": {
+          "customfield_10001": {
+            "requestType": {
+              "id": "98"
+            }            
+          }
+        }
+      }
+    },
+    {
+      "issue": {
+        "id": "100002",
+        "key": "ACP-002",
+        "fields": {
+          "customfield_10001": {
+            "requestType": {
+              "id": "100"
+            }            
+          }
+        }
+      }
+    },
+    {
+      "issue": {
+        "id": "100003",
+        "key": "ACP-003",
+        "fields": {
+          "customfield_10001": {
+            "requestType": {
+              "id": "128"
+            }            
+          }
+        }
+      }
+    },
+    {
+      "issue": {
+        "id": "100004",
+        "key": "ACP-004",
+        "fields": {
+          "reporter": {
+            "name": "foo@bar.com"
+          },
+          "customfield_10147": "foo@bat.com",
+          "customfield_10001": {
+            "requestType": {
+              "id": "98"
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue": {
+        "id": "10005",
+        "key": "ACP-005",
+        "fields": {
+          "customfield_10002": [
+            {
+              "id": "7"
+            }
+          ],
+          "customfield_10600": {
+            "name": "alice"
+          },
+          "customfield_10001": {
+            "requestType": {
+              "id": "100"
+            }
+          }
+        }
+      }
+    },
+    {
+      "issue": {
+        "id": "100006",
+        "key": "ACP-006",
+        "fields": {
+          "customfield_10002": [
+            {
+              "id": "8"
+            }
+          ],
+          "customfield_11100": {
+            "name": "bob"
+          },
+          "customfield_10001": {
+            "requestType": {
+              "id": "128"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
