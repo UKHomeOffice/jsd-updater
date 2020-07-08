@@ -1,6 +1,6 @@
-# WIP: jsd-updater
+# jsd-updater
 
-Work in progress
+(Work in progress)
 
 AWS Lambda helper for ACP Service Desk that:
 - updates user email addresses

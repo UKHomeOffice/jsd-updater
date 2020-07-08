@@ -1,0 +1,26 @@
+pipeline:
+
+  test:
+    image: golang:1.14
+    commands: 
+      - go test -v -coverprofile=coverage.out -json > tests.out
+      - tail -4 tests.out
+    when:
+      event:
+       - [push, pull_request]
+
+  build:
+    image: golang:1.14
+    commands:
+      - go mod download
+      - go build -v .
+      - ls -lah
+    when:
+      event:
+        - [push, pull_request]
+
+  sonar-scan:
+    image: quay.io/ukhomeofficedigital/sonar-scanner:v4.3.0
+    when:
+      event:
+        - pull_request
