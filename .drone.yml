@@ -24,7 +24,7 @@ steps:
 
 - name: sonar-scan
   pull: if-not-exists
-  image: quay.io/ukhomeofficedigital/sonar-scanner:vtesting4
+  image: quay.io/ukhomeofficedigital/sonar-scanner:vtesting6
   when:
     event:
     - pull_request
